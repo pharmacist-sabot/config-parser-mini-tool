@@ -10,7 +10,7 @@ fn main() {
     println!("--- Parsing Configuration ---");
     println!("Input:\n{}\n", config_input);
 
-    // -- การใช้งานตัวแปรแบบเปฃี่ยนรูปได้ (Mutable Variable) --
+    // -- การใช้งานตัวแปรแบบเปลี่ยนรูปได้ (Mutable Variable) --
     let mut line_number = 0;
     // -- การใช้งานตัวแปรแบบไม่เปลี่ยนรูป (Immutable Variables) --
     // เมื่อเราแยกค่า host แล้ว เราไม่ต้องการให้มันเปลี่ยนแปลงอีก
